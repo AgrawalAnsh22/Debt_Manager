@@ -23,10 +23,13 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void cancelbtn(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+        finish();
     }
 
+    public void savebtn(View view) {
+
+
+    }
 
 
 }

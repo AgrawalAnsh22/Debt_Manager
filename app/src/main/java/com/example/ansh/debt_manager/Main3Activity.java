@@ -13,8 +13,12 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
     }
     public void cancelbtn(View view) {
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+       finish();
+    }
+
+    public void savebtn(View view){
+
+
     }
 
 }
